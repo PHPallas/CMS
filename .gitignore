@@ -1,5 +1,6 @@
 /lib/
-/com/
+com/*
+!com/SampleComponent/
 plugins/*
 !plugins/hello-world/
 themes/*
