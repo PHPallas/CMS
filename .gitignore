@@ -1,2 +1,6 @@
 /lib/
 /com/
+plugins/*
+!plugins/hello-world/
+themes/*
+!/themes/phpallas-*/
