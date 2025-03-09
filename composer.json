@@ -1,0 +1,19 @@
+{
+    "name": "phpallas/cms",
+    "description": "Free Open Source Content Management System written in PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phpallas\\Cms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sina Kuhestani",
+            "email": "sinakuhestani@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
