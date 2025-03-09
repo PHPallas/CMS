@@ -10,7 +10,14 @@
     "type": "project",
     "license": "MIT",
     "config": {
-        "vendor-dir": "lib"
+        "vendor-dir": "lib",
+        "bin-dir": "build/bin",
+        "data-dir": "build/data",
+        "cache-vcs-dir": "build/cache/vcs",
+        "cache-dir": "build/cache",
+        "archive-dir": "build/archive",
+        "cache-files-dir": "build/cache/files",
+        "cache-repo-dir": "build/cache/repo"
     },
     "autoload": {
         "psr-4": {
