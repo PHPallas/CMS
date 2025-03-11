@@ -32,6 +32,7 @@
             "PHPallas\\Model\\": "com/Model/src",
             "PHPallas\\HttpKernel\\": "com/HttpKernel/src",
             "PHPallas\\Router\\": "com/Router/src",
+            "PHPallas\\Framework\\": "com/Framework/src",
             "PHPallas\\Locale\\": "com/Locale/src"
         }
     },
