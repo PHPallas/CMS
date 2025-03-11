@@ -21,13 +21,28 @@
     },
     "autoload": {
         "psr-4": {
-            "Phpallas\\Cms\\": "src/",
-            "Phpallas\\SampleComponent\\": "com/SampleComponent/src/"
+            "PHPallas\\CMS\\": "src/",
+            "PHPallas\\Utilities\\": "com/Utilities/src",
+            "PHPallas\\Session\\": "com/Session/src",
+            "PHPallas\\Config\\": "com/Config/src",
+            "PHPallas\\Buffer\\": "com/Buffer/src",
+            "PHPallas\\Standards\\": "com/Standards/src",
+            "PHPallas\\Env\\": "com/Env/src",
+            "PHPallas\\Commons\\": "com/Commons/src",
+            "PHPallas\\Model\\": "com/Model/src",
+            "PHPallas\\HttpKernel\\": "com/HttpKernel/src",
+            "PHPallas\\Router\\": "com/Router/src",
+            "PHPallas\\Locale\\": "com/Locale/src"
         }
     },
     "repositories": {},
     "minimum-stability": "stable",
     "require-dev": {
         "phpunit/phpunit": "^11"
+    },
+    "require": {
+        "phpallas/utilities": "^1.0",
+        "phpallas/buffer": "^1.0",
+        "phpallas/session": "^1.0"
     }
 }
