@@ -2,12 +2,12 @@
 
 use PHPallas\Framework\App;
 
-error_reporting(E_ALL);
-ini_set('display_errors', '1');
+error_reporting(error_level: E_ALL);
+ini_set(option: 'display_errors', value: '1');
 
-define("ROOT", dirname(__DIR__));
-define ("DS", DIRECTORY_SEPARATOR);
+define(constant_name: "ROOT", value: dirname(__DIR__));
+define (constant_name: "DS", value: DIRECTORY_SEPARATOR);
 
-require implode(DS,[ROOT,"lib","autoload.php"]);
+require implode(separator: DS,array: [ROOT,"lib","autoload.php"]);
 
 App::launch();
